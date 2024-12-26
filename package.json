@@ -4,6 +4,7 @@
   "description": "Organize practice materials for each technology stack.",
   "main": "index.js",
   "scripts": {
+    "ts": "tsnd --respawn ./ts/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +27,8 @@
   },
   "homepage": "https://github.com/kangduu/practice#readme",
   "dependencies": {
-    "tsc-node": "^0.0.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.2"
   },
   "engines": {
